@@ -484,7 +484,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerbers/",
+      "plot": "ZAM-Badge-Cat-with-Knife-gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -526,7 +526,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
