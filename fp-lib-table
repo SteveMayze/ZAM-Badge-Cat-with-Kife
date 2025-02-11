@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Cat-with-Knife")(type "KiCad")(uri "${LOCAL_PCBS}/ZAM/ZAM-Badge-Cat-with-Knife/lib/Cat-with-Knife.pretty")(options "")(descr ""))
+)

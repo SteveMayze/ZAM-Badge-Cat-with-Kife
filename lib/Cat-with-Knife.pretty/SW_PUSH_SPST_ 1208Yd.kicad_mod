@@ -1,0 +1,122 @@
+(footprint "SW_PUSH_SPST_ 1208Yd"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -4.064 5.334 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "69d3e20a-4f08-49b8-842f-a9516b5674dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_PUSH_SPST_ 1208Yd"
+		(at 0 -5.207 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d12c6024-17b5-483d-8e36-374fb72dc73e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d695f32f-dfa4-4873-940a-8ac1098875a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcaa44f7-3f38-4e06-b103-ed245a29610f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7ea490b1-5796-4b1b-930e-0fb3ff494275")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.873 -4)
+		(end 5.873 4)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4d054503-43c6-480f-b585-7c2d29d4e1e5")
+	)
+	(fp_poly
+		(pts
+			(xy -10.668 -1.397) (xy -6.096 -1.397) (xy -6.096 -4.191) (xy 6.096 -4.191) (xy 6.096 -1.397) (xy 10.668 -1.397)
+			(xy 10.668 1.397) (xy 6.096 1.397) (xy 6.096 4.191) (xy -6.096 4.191) (xy -6.096 1.397) (xy -10.668 1.397)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "4d2f1c94-3d9a-4451-811e-7111d9c76074")
+	)
+	(pad "1" smd roundrect
+		(at -8.25 0)
+		(size 4.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "eacb1dce-da6f-45ba-8ccd-52b42adfb1f1")
+	)
+	(pad "2" smd roundrect
+		(at 8.25 0)
+		(size 4.5 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "fe16b73d-7f59-45f0-a840-33c2e206109d")
+	)
+	(model "${KIPRJMOD}/lib/3dmodel/SW_PUSH_SPST_ 1208Yd.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

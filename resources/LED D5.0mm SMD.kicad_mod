@@ -1,0 +1,100 @@
+(footprint "LED D5.0mm SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.572 1.27 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "71fb137f-978a-43df-b2be-0094d2d042df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED D5.0mm SMD"
+		(at 0 4.572 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8652e169-5074-4f53-945c-c38f4aa56c1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "622bb45f-6c63-48aa-afe1-7863c253db01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "89948b3d-fa73-41f8-b426-7b0ba4d11f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d74bdd73-e472-4622-a388-efe630cf5e32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "+"
+		(at -1.016 5.08 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "df84a4c6-7f43-4832-9dd6-e79f69f3cc7c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c215f449-9031-4e26-930c-aececaa53da8")
+	)
+	(pad "2" smd roundrect
+		(at 0 2.54)
+		(size 4 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "082ec819-3a04-4d70-ae27-450c24314ac2")
+	)
+)
